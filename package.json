@@ -1,0 +1,26 @@
+{
+  "name": "demo-ui-automation-playwright",
+  "version": "1.0.0",
+  "description": "Demo UI automation tests with Playwright and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "tests:chrome": "playwright test --config=playwright.config.ts --project=Chromium",
+    "tests:firefox": "playwright test --config=playwright.config.ts --project=Firefox",
+    "tests:webkit": "playwright test --config=playwright.config.ts --project=Webkit",
+    "tests:e2e": "playwright test --config=e2e.config.ts --project=Firefox"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielfer/demo-ui-automation-playwright.git"
+  },
+  "author": "Gabriel Fernandes da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielfer/demo-ui-automation-playwright/issues"
+  },
+  "homepage": "https://github.com/gabrielfer/demo-ui-automation-playwright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.19.2",
+    "ts-check": "^0.2.4"
+  }
+}
