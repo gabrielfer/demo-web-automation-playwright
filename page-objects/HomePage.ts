@@ -17,8 +17,7 @@ export class HomePage {
         await this.shoppingCartLink.click()
     }
 
-    async printInventoryList(productName: string) {
-        const product = await this.inventoryList.getAttribute('productName')
-        await this.page.click(product)
+    async clickProductByName(productName: string) {
+        await this.page.locator('text='+ productName +'').click()
     }
 }

@@ -1,8 +1,8 @@
-import { test, expect, Page } from '@playwright/test';
+import { test, expect } from '@playwright/test';
 import { BurgerMenu } from '../../page-objects/components/BurgerMenu';
 import { LoginPage } from '../../page-objects/LoginPage'
 
-test.describe.parallel.only("Login / Logout flow", () => {
+test.describe.parallel("Login / Logout flow", () => {
 
   let loginPage: LoginPage
   let burgerMenu: BurgerMenu
