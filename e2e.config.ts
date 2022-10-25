@@ -6,6 +6,7 @@ const config: PlaywrightTestConfig = {
     testDir: 'tests/e2e',
     use: {
         headless: true,
+        baseURL: 'https://www.saucedemo.com',
         viewport: { width: 1200, height: 720 },
         actionTimeout: 10000,
         ignoreHTTPSErrors: true,

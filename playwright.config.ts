@@ -5,6 +5,7 @@ const config: PlaywrightTestConfig = {
     retries: 0,
     use: {
         headless: true,
+        baseURL: 'https://www.saucedemo.com',
         viewport: { width: 1200, height: 720 },
         actionTimeout: 15000,
         ignoreHTTPSErrors: true,
