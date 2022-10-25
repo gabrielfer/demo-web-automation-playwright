@@ -13,6 +13,7 @@ Run `npm install` (or `npm i` for the short version) to install the dev dependen
 ## Tests
 
 Run `npm run tests:chrome` to run the tests on Chrome browser in headless mode.
+
 Run `npm run tests:firefox` to run the tests on Firefox browser in headless mode.
 
 ## Support this project
